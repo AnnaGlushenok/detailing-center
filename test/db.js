@@ -1,5 +1,5 @@
 import {Sequelize} from 'sequelize';
-import {initModels} from '../DAL/models.js';
+import {initModels} from '../app/DAL/models.js';
 
 export async function setupTestDB() {
     // const sequelize = new Sequelize('sqlite:memory:', {logging: false});

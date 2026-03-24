@@ -1,6 +1,6 @@
 import {describe, test, expect, beforeAll, afterAll} from 'vitest';
 import {setupTestDB} from '../db.js';
-import {Repository} from '../../DAL/repositories/Repository.js';
+import {Repository} from '../../app/DAL/repositories/Repository.js';
 
 describe('OrderController', () => {
     let repo;

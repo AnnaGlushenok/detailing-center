@@ -15,5 +15,4 @@ document.querySelectorAll('.sidebar__btn').forEach(btn => {
     });
 });
 
-router('stats');
-// router('services');
+router('orders');
