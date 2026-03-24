@@ -1,0 +1,30 @@
+{
+  "name": "detailing-centre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node DAL/app.js",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "vitest": {
+    "testMatch": [
+      "test/**/*.test.js"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.19.2",
+    "sequelize": "^6.37.8",
+    "sqlite3": "^6.0.1"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^4.1.0",
+    "vitest": "^4.1.0"
+  }
+}
